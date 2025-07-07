@@ -19,18 +19,32 @@ h1, h2 {
     box-shadow: 0 10px 10px rgb(0, 0, 0);
 }
 
-.info {
+.style-info {
     display: flex;
     justify-content: space-between;
 }
 
+.style-mxh {
+    display: flex;
+    margin: 30px;
+    padding: 60px;
+    border-radius: 80px;
+    background-color: #ffffff;
+    gap: 30px;
+}
+
 .info div {
-    width: 50%;
+    width: 50%
 }
 
 img.avatar {
     width: 210px;
     border-radius: 20px;
+}
+
+img.app {
+    width: 70px;
+    height: 70px;
 }
 
 .footer-style {
