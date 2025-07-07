@@ -1,0 +1,39 @@
+body {
+    font-family: Arial;
+    max-width: 1000px;
+    margin: auto;
+    padding: 50px;
+    line-height: 1.5;
+    background-color: #b5b0b0;
+}
+
+h1, h2 {
+    color: #def86b;
+}
+
+.section {
+    background: #929090;
+    padding: 20px;
+    margin-bottom: 50px;
+    border-radius: 30px;
+    box-shadow: 0 10px 10px rgb(0, 0, 0);
+}
+
+.info {
+    display: flex;
+    justify-content: space-between;
+}
+
+.info div {
+    width: 50%;
+}
+
+img.avatar {
+    width: 210px;
+    border-radius: 20px;
+}
+
+.footer-style {
+    color: rgb(0, 0, 0);
+    text-align: center;
+}
